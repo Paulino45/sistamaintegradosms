@@ -78,3 +78,25 @@ document.addEventListener("DOMContentLoaded", function() {
     // Evento de mouseout para recolher o sidebar
     sidebar.addEventListener('mouseout', collapseSidebar);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleciona a imagem e o sidebar
+    var image = document.querySelector('.top-header img');
+    var sidebar = document.querySelector('.sidebar');
+
+    // Função para expandir o sidebar
+    function expandSidebar() {
+        sidebar.classList.remove('collapsed');
+        sidebar.classList.add('expanded');
+    }
+
+    // Função para colapsar o sidebar
+    function collapseSidebar() {
+        sidebar.classList.remove('expanded');
+        sidebar.classList.add('collapsed');
+    }
+
+    // Adiciona o evento de hover à imagem
+    image.addEventListener('mouseover', expandSidebar);
+    image.addEventListener('mouseout', collapseSidebar);
+});
