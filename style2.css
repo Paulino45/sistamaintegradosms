@@ -9,6 +9,7 @@ body {
     background-position: left;
     background-repeat: no-repeat; 
     background-image: url('poco.jpg');
+    background-size: cover;
 
 }
 
