@@ -7,7 +7,9 @@ body {
     height: 80vh;
     background-size:30%;
     background-position: left;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    background-image: url('poco.jpg');
+
 }
 
 .header-content {
