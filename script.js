@@ -100,3 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     image.addEventListener('mouseover', expandSidebar);
     image.addEventListener('mouseout', collapseSidebar);
 });
+function sairDoSistema() {
+    // Redireciona para a página inicial
+    window.location.href = "agendalogin.html";
+}
