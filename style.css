@@ -25,7 +25,7 @@ body {
     h2{
         font-family: Arial, sans-serif;
         margin: 0; /* Remove a margem padrão do h1 */
-        font-size: 44px; /* Ajusta o tamanho da fonte */
+        font-size: 24px; /* Ajusta o tamanho da fonte */
         color: #2b54dd; /* Cor do texto */
         width: 100%;
         text-align: center; /* Centraliza o texto dentro do h1 */ 
