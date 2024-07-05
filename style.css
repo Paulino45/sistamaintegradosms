@@ -199,6 +199,14 @@ form input[type=submit]{
     cursor: pointer;
  }
 
+.principal{
+    background: #ffffff;
+    max-width: 800px;
+    height: 400px;
+    padding: 8px;
+    
+}
+
 }
 .form-outer{
     padding: 10px 15px;
