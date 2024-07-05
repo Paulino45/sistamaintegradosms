@@ -34,7 +34,7 @@ body {
 .top-header {
     position: absolute; /* Fixa o cabeçalho no topo da página */
     top: 0; /* Posiciona no topo */
-    width: 85%; /* Ocupa toda a largura da página */
+    width: 90%; /* Ocupa toda a largura da página */
     padding: 9px 178px 14px 36px; /* Espaçamento interno para afastar o texto do borda */
     background-color: #f7f5f5; /* Cor de fundo opcional */
     z-index: 100; /* Garante que o cabeçalho fique acima de outros conteúdos */
