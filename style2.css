@@ -32,10 +32,10 @@ body {
 }
 
 .top-header {
-    position: fixed; /* Fixa o cabeçalho no topo da página */
+    position: absolute; /* Fixa o cabeçalho no topo da página */
     top: 0; /* Posiciona no topo */
-    width: 100%; /* Ocupa toda a largura da página */
-    padding: 10px 0 20px 50px; /* Espaçamento interno para afastar o texto do borda */
+    width: 85%; /* Ocupa toda a largura da página */
+    padding: 9px 178px 14px 36px; /* Espaçamento interno para afastar o texto do borda */
     background-color: #f7f5f5; /* Cor de fundo opcional */
     z-index: 100; /* Garante que o cabeçalho fique acima de outros conteúdos */
     display: flex;
