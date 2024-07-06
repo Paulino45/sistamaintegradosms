@@ -38,7 +38,7 @@ body {
         top: 0;
         width: 100%;
         padding: 8px 100px 10px 15px;
-        background-color:#e9e9e9;
+        background-color:#f8f8f8;
         z-index: 100;
         display: flex;
         justify-content: center;
@@ -52,8 +52,9 @@ button:hover {
 }
 
 h2{
+    padding: 8px;
     font-family: Arial, sans-serif;
-    margin: 20px; /* Remove a margem padrão do h1 */
+    margin: 2px; /* Remove a margem padrão do h1 */
     font-size: 24px; /* Ajusta o tamanho da fonte */
     color: #0a539c; /* Cor do texto */
     width: 100%;
@@ -70,7 +71,7 @@ button {
     color: #fff;
     font-size: 14pt;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 .buttons-container {
@@ -94,8 +95,8 @@ button {
     flex-direction: row; /* Muda a direção para linha */
     align-items: center; /* Centraliza os itens verticalmente */
     justify-content:right; /* Alinha os itens à direita */
-    width: 100%;
-    margin-bottom: 10px; /* Mantém algum espaçamento entre os grupos */
+    width: 90%;
+    margin-bottom: -3px; /* Mantém algum espaçamento entre os grupos */
     font-size: 14px;
 }
 .input-container {
@@ -118,7 +119,6 @@ button {
 fieldset {
     border: none;
     padding: 10px;
-    margin: 20px;
     width: 100%;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -128,10 +128,50 @@ fieldset {
     align-items: center; /* Centraliza horizontalmente */
 }
 
-
-
 legend {
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
+
+input[type="text"] {
+    width: 60%;
+    padding: 6px; /* Aumenta o padding para melhorar a usabilidade */
+    font-size: 14px; /* Define o tamanho da fonte */
+    border: 1px solid #ccc; /* Define a cor e espessura da borda */
+    border-radius: 4px; /* Arredonda as bordas para um visual mais agradável */
+    background-color: #ffffff; /* Define a cor de fundo */
+    color: #000000; /* Define a cor do texto */
+    outline: none; /* Remove o foco por defeito */
+}
+
+input[type="date"] {
+    width: 30%;
+    padding: 6px; /* Aumenta o padding para melhorar a usabilidade */
+    font-size: 14px; /* Define o tamanho da fonte */
+    border: 1px solid #ccc; /* Define a cor e espessura da borda */
+    border-radius: 4px; /* Arredonda as bordas para um visual mais agradável */
+    background-color: #f9f9f9; /* Define a cor de fundo */
+    color: #333; /* Define a cor do texto */
+    outline: none; /* Remove o foco por defeito */
+}
+
+/* Altera a cor do texto quando o campo está focado */
+input[type="date"]:focus {
+    border-color: #2D5966; /* Cor da borda quando focado */
+    background-color: #e9e9e9; /* Cor de fundo quando focado */
+}
+
+.gnero-checkbox + label {
+    display: inline-flex; /* Faz com que a label se comporte como um item flexível */
+    align-items: center; /* Centraliza os itens verticalmente dentro da label */
+    margin-right: 10px; /* Adiciona um pouco de espaço à direita do checkbox */
+}
+
+.gnero-options {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+
