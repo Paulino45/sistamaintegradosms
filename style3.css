@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh; /* Garante que o body ocupe pelo menos a altura da viewport */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    }
+
+    .top-header h1 {
+        margin: 10px; /* Remove a margem padrão do h1 */
+        font-size: 24px; /* Ajusta o tamanho da fonte */
+        color: #175fcc; /* Cor do texto */
+        width: 150%;
+        text-align: center; /* Centraliza o texto dentro do h1 */
+       
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        flex-grow: 3; /* Preenche o espaço restante */
+    }
+
+    .top-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 8px 100px 10px 15px;
+        background-color:#e9e9e9;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+/* Altera a cor do botão quando passado o mouse */
+button:hover {
+    background-color: #8aa2bd;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Remove a margem padrão do h1 */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    color: #0a539c; /* Cor do texto */
+    width: 100%;
+    text-align: center; /* Centraliza o texto dentro do h1 */ 
+}
+
+   
+/* Estilização do botão */
+button {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #2D5966;
+    color: #fff;
+    font-size: 14pt;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.buttons-container {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+   
+}
+
+.btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row; /* Se os botões estiverem empilhados verticalmente */
+   
+}
+
+.form-outer {
+    display: block;
+    flex-direction: row; /* Muda a direção para linha */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content:right; /* Alinha os itens à direita */
+    width: 100%;
+    margin-bottom: 10px; /* Mantém algum espaçamento entre os grupos */
+    font-size: 14px;
+}
+.input-container {
+    display: block;
+    justify-content:center; /* Alinha os itens à direita dentro do contêiner */
+    width: 100%;
+}
+
+.form-outer input{
+    display: block;
+    width: 85%; /* Define a largura dos inputs para 80% da largura do contêiner pai */
+    padding: 6px; /* Aumenta o tamanho interno dos inputs para facilitar a digitação */
+    font-size: 14px; /* Define o tamanho da fonte dentro dos inputs */
+    border: 1px solid #ccc; /* Adiciona uma borda suave ao redor dos inputs */
+    border-radius: 4px; /* Arredonda as bordas dos inputs para um visual mais agradável */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura definida */
+    margin-bottom: 10px; /* Adiciona algum espaço abaixo de cada input */
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex; /* Usa Flexbox para alinhamento */
+    flex-direction:column; /* Organiza os filhos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+
+
+legend {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
