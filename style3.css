@@ -105,7 +105,7 @@ button {
     flex-direction: row; /* Muda a direção para linha */
     align-items: center; /* Centraliza os itens verticalmente */
     justify-content:right; /* Alinha os itens à direita */
-    width: 90%;
+    width: 110%;
     margin-bottom: -3px; /* Mantém algum espaçamento entre os grupos */
     font-size: 14px;
 }
@@ -136,7 +136,7 @@ button {
     background-color: #ffffff;
     color: #020202;
     outline: none;
-    width: 47%;
+    width: 30%;
 }
 
 /* Fazendo com que as opções estejam sempre em letras maiúsculas */
@@ -147,7 +147,7 @@ button {
 fieldset {
     border: none;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: flex; /* Usa Flexbox para alinhamento */
@@ -202,6 +202,28 @@ input[type="date"]:focus {
     gap: 10px; /* Espaçamento entre os itens */
 }
 
+.horizontal-fieldset {
+    display: block;
+    flex-direction:column;
+    justify-content: space-between;
+  
+}
 
+.field-group {
+    display: block;
+    flex-direction: column; /* Organiza a label acima do input */
+    width: 100%; /* Ajusta a largura para ocupar metade do espaço disponível, subtraindo algum espaço para margens */
+    margin-bottom: 10px; /* Adiciona espaço entre os grupos de campos */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
 
+.field-group input{
+    margin-bottom: 4px;
+    width: 30%;
+}
+
+.field-group label{
+        font-size: 14px;
+}
+ 
 
