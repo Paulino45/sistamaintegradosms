@@ -114,4 +114,14 @@ document.getElementById('cpf').addEventListener('input', function(e) {
                           .replace(/(-\d{2})\d+?$/, '$1'); // Impede entrada de mais de 11 dígitos
     e.target.value = cpfPattern;
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var selectElement = document.querySelector('.form-cons select');
+    if (selectElement) {
+        // Converte todas as opções para letras maiúsculas
+        Array.from(selectElement.options).forEach(function(option) {
+            option.textContent = option.textContent.toUpperCase();
+        });
+    }
+});
     
