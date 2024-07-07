@@ -47,12 +47,12 @@
                     </div>
                 </fieldset><br>
             
-                <fieldset>
+                <fieldset class="horizontal-fieldset">
                     <legend>Solicitação da Consulta:</legend>
-                    <div class="form-outer">
-                        <label>CNS ou CPF</label>
+                    <div class="field-group">
+                        <label for="cpf">Cns ou Cpf:</label>
                         <input type="text" name="cpf" id="cpf" required>
-                    </div><br>
+                    </div>
                     <div class="form-cons">
                         <label>Consulta com:</label>
                         <select name="Consulta" required>
@@ -62,12 +62,10 @@
                             <option>Psiquiatra</option>
                         </select>
                     </div><br>
-                    <div class="form-outer">
-                        <label>Data da Consulta</label>
+                    <div class="field-group">
+                        <label for="consulta">Data da Consulta:</label>
                         <input type="date" name="consulta" required>
-                    
                     </div>
-                   
                 </fieldset><br><br>
     
                 <div class="btn button">
@@ -83,6 +81,10 @@
 </section>
 
     <!-- Seu conteúdo HTML aqui -->
+
+    <script src="script.js"></script>
+</body>
+</html>
 
     <script src="script.js"></script>
 </body>
