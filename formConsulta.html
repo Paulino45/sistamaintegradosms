@@ -51,15 +51,21 @@
                     <legend>Solicitação da Consulta:</legend>
                     <div class="form-outer">
                         <label>CNS ou CPF</label>
-                        <input type="text" id="cpf" name="cpf" required>
-                    </div>
-                    <div class="form-outer">
+                        <input type="text" name="cpf" id="cpf" required>
+                    </div><br>
+                    <div class="form-cons">
                         <label>Consulta com:</label>
-                        <input type="text" name="Consulta" required>
-                    </div>
+                        <select name="Consulta" required>
+                            <option>:: selecione ::</option>
+                            <option>Ortopedista</option>
+                            <option>Pediatra</option>
+                            <option>Psiquiatra</option>
+                        </select>
+                    </div><br>
                     <div class="form-outer">
                         <label>Data da Consulta</label>
                         <input type="date" name="consulta" required>
+                    
                     </div>
                    
                 </fieldset><br><br>
