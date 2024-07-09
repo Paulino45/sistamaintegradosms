@@ -10,7 +10,7 @@
 body {
         display: grid;
         place-items: center;
-        min-height: 70vh; /* Certifica-se de que o body tenha altura mínima igual à altura da viewport */
+        min-height: 70dvh; /* Certifica-se de que o body tenha altura mínima igual à altura da viewport */
         margin: 0; /* Remove margens padrão */
     }
 
